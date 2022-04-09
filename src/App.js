@@ -38,7 +38,7 @@ function App() {
         console.log(user);
       })
       .catch((error) => {
-        console.error(error);
+        console.error('you are error bro', error);
       });
   };
 
